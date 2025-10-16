@@ -1,10 +1,10 @@
 
 
-const botaoPlayPause = document.getElementById("play-pause");
-const botaoProximoCapitulo = document.getElementById("proximo");
-const botaoCapituloAnterior = document.getElementById("anterior");
-const audio = document.getElementById("audio-capitulo");
-const textoCapitulo = document.getElementById("capitulo");
+const botaoPlayPause = document.querySelector("#play-pause");
+const botaoProximoCapitulo = document.querySelector("#proximo");
+const botaoCapituloAnterior = document.querySelector("#anterior");
+const audio = document.querySelector("#audio-capitulo");
+const textoCapitulo = document.querySelector("#capitulo");
 const qtdCapitulos = 10;
 
 let taTocando = false;
